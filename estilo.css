@@ -1,0 +1,81 @@
+body { background-color: blue;
+
+}
+
+
+a,li,h1,h2,h3 {color: white;}
+
+
+/*alteração index*/
+
+
+/* link botão */
+a:link, a:visited{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-weight: 500px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+/*link quando passar o mouse*/
+a:hover{
+    color: white;
+    background-color: red;
+}
+/*link quando clicar*/
+a:active{
+    background-color: green;
+}
+
+
+/*alterações secao 1*/
+p.secao1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 14px;
+}
+
+/*alterações secao 2*/
+
+
+/*lista ordenada*/
+ol{
+    list-style-type: none;
+    color: black;
+    background-color: gray;
+    width: 300px;
+}
+
+/*alterações secao 3*/
+label{
+    font-weight: bold;
+
+}
+
+
+/*alterações secao 4*/
+
+
+th{
+    color: white;
+    background-color: black;
+}
+/*corpo da tabela*/
+td{
+    color: black;
+    background-color: gray;
+    font-weight: bold;
+}
+
+/*alterações rodapé*/
+footer{
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: italic;
+
+}
